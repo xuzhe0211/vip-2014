@@ -1,0 +1,42 @@
+@import "../../app/css/lib.scss";
+.tabs{
+    @include clearfix;
+    _width:550px;
+    _white-space:nowrap; 
+    li{
+        float:left;
+        _width:86px;
+        white-space:nowrap; 
+        a{
+            @include inline-block;
+            height:40px;
+            line-height: 40px;
+            padding: 0 15px;
+            position: relative;
+            color:#a5a5a5;
+            text-decoration: none;
+            font-size: 14px;
+            font-family: $font-yahei;
+            i{
+                position: absolute;
+                left: 50%;
+                bottom:0;
+                width:0;
+                height:0;
+                overflow: hidden;
+                margin-left: -4px;
+                border-top: 4px solid #fbfbfc;
+                border-right: 4px solid #fbfbfc;
+                border-bottom:4px solid #ff6c02;
+                border-left: 4px solid #fbfbfc;
+                display: none;
+            }
+            &.selected{
+                color:#ff8400;
+                i{
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}

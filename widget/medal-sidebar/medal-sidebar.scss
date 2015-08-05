@@ -1,0 +1,44 @@
+@import "../../app/css/lib.scss";
+.medal-sidebar{
+	width:214px;
+	float:right;
+	.column{
+		width:212px;
+		border:1px solid #e5e5e5;
+		margin-bottom:10px;
+		.mt{
+			height:33px;
+			line-height: 33px;
+			background:#fbfbfb;
+			color:#999;
+			padding-left:10px;
+			font-weight: bold;
+			border-bottom:1px solid #e5e5e5;
+		}
+		.mc{
+			height:235px;
+			overflow: hidden;
+			padding: 0 5px;
+			background: #fff;
+			ul{
+				li{
+					height:78px;
+					line-height: 78px;
+					text-align: center;
+					font-family: $font-yahei;
+					font-size:14px;
+					border-bottom:1px dotted #e7e7e7;
+					a{
+						color:#999;
+						img{
+							margin-right:20px;
+						}
+						&:hover{
+							color:#E4393C;
+						};
+					}
+				}
+			}
+		}
+	}
+}

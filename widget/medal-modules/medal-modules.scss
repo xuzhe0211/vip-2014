@@ -1,0 +1,161 @@
+@import "../../app/css/lib.scss";
+.medal{
+	display: none;
+}
+.ui-dialog-content{
+	position: relative;
+}
+.contentbox{
+	margin:20px 0;
+	padding:0 20px;
+	.medal-brief{
+		width:165px;
+		float:left;
+		text-align: center;
+		padding-right:25px;
+		border-right:1px dotted #ddd;
+		p{
+			margin-top:15px;
+			line-height: 22px;
+			color:#999;
+			text-align: left;
+		}
+	}
+	.medal-info{
+		width:230px;
+		float:right;
+		.medal-name{
+			color:#333;
+			font-weight: bold;
+			line-height: 40px;
+		}
+		.medal_tab{
+			border-bottom:1px solid #ddd;
+			height:24px;
+			margin-top:-5px;
+			position: relative;
+			span{
+				@include inline-block;
+				width:55px;
+				height:23px;
+				line-height: 23px;
+				text-align: center;
+				background-color: #fff;
+				border:1px solid #ddd;
+				border-bottom:none;
+				float:left;
+				position: absolute;
+				color:#333;
+				cursor: pointer;
+			}
+			.fore01{
+				left:0px;
+			}
+			.fore02{
+				left:56px;
+			}
+			.fore03{
+				left:112px;
+			}
+			.curr{
+				height:24px;
+				bottom:-1px;
+
+			}
+		}
+		.kv-item {
+			padding: 4px 0;
+			color:#999;
+			a{
+				color:#3fc3ff;
+			}
+		}
+		.medal-handle{
+			padding-top:10px;
+			.btn{
+				padding:5px 10px;
+				line-height: 25px;
+				text-align: center;
+				border-radius: 5px;
+				text-decoration: none;
+			}
+			.btn-done{
+				background:#ddd;
+				color:#fff;
+			}
+			.btn-usable{
+				background:#fff;
+				border:1px solid #ddd;
+				color:#333;
+			}
+		}
+	}
+	.medal-tips{
+		font:18px/40px $font-yahei;
+		color:#333;
+		font-weight: bold;
+		text-align: center;
+		i{
+			@include inline-block;
+			width:41px;
+			height:31px;
+			background:url("i/ok.gif");
+			vertical-align: middle;
+			margin-right:20px;
+		}
+	}
+	.medal-operate{
+		margin:30px 0 0;
+		text-align: center;
+		a{
+			padding:5px 10px;
+			line-height: 25px;
+			text-align: center;
+			border-radius: 5px;
+			text-decoration: none;
+			color:#333;
+			margin:0 10px;
+			border:1px solid #ddd;
+		}
+	}
+	.medal-share{
+		position: absolute;
+		left:20px;
+		bottom:15px;
+		a{
+            margin:0 2px;
+            display: inline-block;
+            *display: inline;
+            *zoom:1;
+            background:url("i/share_ico.jpg");
+            vertical-align: bottom;
+            overflow: hidden;
+            text-indent:1000px;
+        }
+        .share_sina{
+            width:17px;
+            height:19px;
+            background-position: 0px 0px;
+        }
+        .share_twb{
+            width:16px;
+            height:19px;
+            background-position: -25px 0px;
+        }
+        .share_rr{
+            width:16px;
+            height:19px;
+            background-position: -49px 0px;
+        }
+        .share_zone{
+            width:16px;
+            height:19px;
+            background-position: -72px 0px;
+        }
+        .share_quan{
+            width:19px;
+            height:19px;
+            background-position: -96px 0px;
+        }
+	}
+}

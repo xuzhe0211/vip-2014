@@ -1,0 +1,91 @@
+{
+    "allProducts":[
+        [{
+            "p-img": "http://img11.360buyimg.com/n7/858/3ebc8f60-b924-4d1b-af32-b4ac2f8408cf.jpg",
+            "p-link":"http://item.jd.com/981821.html",
+            "p-name": "苹果（APPLE）iPhone 4S 8G版 3G手机（白色）WCDMA/GSM",
+            "p-del": "￥25988.00",
+            "p-price": "￥2398.20", 
+            "p-bean": "50" ,
+            "exc-r-top-2":"京东11.11"
+        }, 
+        {
+            "p-img": "http://img11.360buyimg.com/n7/858/3ebc8f60-b924-4d1b-af32-b4ac2f8408cf.jpg",
+            "p-link":"http://item.jd.com/981821.html",
+            "p-name": "苹果（APPLE）iPhone 4S 8G版 3G手机（白色）WCDMA/GSM",
+            "p-del": "￥25989.00",
+            "p-price": "￥2398.00", 
+            "p-bean": "50" ,
+            "exc-r-top":"最后疯抢"
+        }],
+        [{
+            "p-img": "http://img11.360buyimg.com/n7/858/3ebc8f60-b924-4d1b-af32-b4ac2f8408cf.jpg",
+            "p-link":"http://item.jd.com/981821.html",
+            "p-name": "苹果（APPLE）iPhone 4S 8G版 3G手机（白色）WCDMA/GSM",
+            "p-del": "￥2598.00",
+            "p-price": "￥23798.00", 
+            "p-bean": "50" ,
+            "exc-r-top":"最后疯抢"
+        }, 
+        {
+            "p-img": "http://img11.360buyimg.com/n7/858/3ebc8f60-b924-4d1b-af32-b4ac2f8408cf.jpg",
+            "p-link":"http://item.jd.com/981821.html",
+            "p-name": "苹果（APPLE）iPhone 4S 8G版 3G手机（白色）WCDMA/GSM",
+            "p-del": "￥2598.00",
+            "p-price": "￥23498.00", 
+            "p-bean": "50" 
+        }],
+
+        [{
+            "p-img": "http://img11.360buyimg.com/n7/858/3ebc8f60-b924-4d1b-af32-b4ac2f8408cf.jpg",
+            "p-link":"http://item.jd.com/981821.html",
+            "p-name": "苹果（APPLE）iPhone 4S 8G版 3G手机（白色）WCDMA/GSM",
+            "p-del": "￥2598.00",
+            "p-price": "￥23798.00", 
+            "p-bean": "50" ,
+            "exc-r-top-3":"年货"
+        }, 
+        {
+            "p-img": "http://img11.360buyimg.com/n7/858/3ebc8f60-b924-4d1b-af32-b4ac2f8408cf.jpg",
+            "p-link":"http://item.jd.com/981821.html",
+            "p-name": "苹果（APPLE）iPhone 4S 8G版 3G手机（白色）WCDMA/GSM",
+            "p-del": "￥2598.00",
+            "p-price": "￥23498.00", 
+            "p-bean": "50" 
+        }],
+        [{
+            "p-img": "http://img11.360buyimg.com/n7/858/3ebc8f60-b924-4d1b-af32-b4ac2f8408cf.jpg",
+            "p-link":"http://item.jd.com/981821.html",
+            "p-name": "苹果（APPLE）iPhone 4S 8G版 3G手机（白色）WCDMA/GSM",
+            "p-del": "￥2598.00",
+            "p-price": "￥23698.00", 
+            "p-bean": "50" 
+        }, 
+        {
+            "p-img": "http://img11.360buyimg.com/n7/858/3ebc8f60-b924-4d1b-af32-b4ac2f8408cf.jpg",
+            "p-link":"http://item.jd.com/981821.html",
+            "p-name": "苹果（APPLE）iPhone 4S 8G版 3G手机（白色）WCDMA/GSM",
+            "p-del": "￥2598.00",
+            "p-price": "￥23978.00", 
+            "p-bean": "50" 
+        }],
+        [{
+            "p-img": "http://img11.360buyimg.com/n7/858/3ebc8f60-b924-4d1b-af32-b4ac2f8408cf.jpg",
+            "p-link":"http://item.jd.com/981821.html",
+            "p-name": "苹果（APPLE）iPhone 4S 8G版 3G手机（白色）WCDMA/GSM",
+            "p-del": "￥2598.00",
+            "p-price": "￥2398.00", 
+            "p-bean": "50" 
+        },
+
+        {
+            "p-img": "http://img11.360buyimg.com/n7/858/3ebc8f60-b924-4d1b-af32-b4ac2f8408cf.jpg",
+            "p-link":"http://item.jd.com/981821.html",
+            "p-name": "苹果（APPLE）iPhone 4S 8G版 3G手机（白色）WCDMA/GSM",
+            "p-del": "￥2598.00",
+            "p-price": "￥2398.00", 
+            "p-bean": "50" 
+        }]
+        
+    ]
+}

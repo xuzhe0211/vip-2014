@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+
+@import "../../app/css/lib.scss";
+
+
+.page{
+    margin-bottom: 10px;
+   
+   .p-wrap{
+        float: right;
+    }
+
+   .p-num{
+        float: left;
+
+        a,
+        b,
+        .text{
+            float: left;
+            height: 28px;
+            line-height: 28px;
+            padding: 0px 9px;
+            margin-right: 5px;
+            font-size: 12px;
+        }
+
+        a{
+            color: #333;
+            border: 1px solid #ddd;
+            @include gradual-change(#f7f7f7, #f2f2f2);
+            @include r-corners(3px);
+            &:hover{
+                text-decoration: none;
+                box-shadow: 0 1px 1px rgba(0, 1, 1, 0.08);
+            }
+        }
+
+        a.curr{
+            border: 0 none;
+            padding: 1px 15px;
+            background: none;
+            filter: none;
+            color: $color01;
+            cursor: default;
+
+            &:hover{
+                box-shadow: none;
+            }
+        }
+        
+
+        .pn-break{
+            color: #ccc;
+
+            &:hover{
+                box-shadow: none;
+            }
+        }
+
+        .pn-prev,
+        .pn-next{
+            em{
+                vertical-align: middle;
+            }
+            i{
+                vertical-align: middle;
+                font-style: normal;
+                font-size: 16px;
+                font-family: "\5b8b\4f53";
+                padding: 0 5px;
+                color: #aaa;
+            }
+            
+        }
+
+        .pn-prev{
+            i{
+                padding-left: 0;
+            }
+        }
+        .pn-next{
+            i{
+                padding-right: 0;
+            }
+        }
+
+        .pn-prev.disabled,
+        .pn-next.disabled{
+           
+            background: none;
+            background: #fff;
+            cursor: default;
+
+            em,
+            i{
+                color: #ccc;
+            }
+            
+        }
+
+    }
+
+
+}
+.page-m .p-num  {
+
+    a{
+        width:28px;
+        text-align: center;
+    }
+    .text{
+        font-family: verdana;
+        margin-right: 1px;
+        i{
+            font-style: normal;
+            font-weight:bold;
+        }
+    }
+}
+
+.filter .extra-r .page .p-wrap {
+    float: left;
+}

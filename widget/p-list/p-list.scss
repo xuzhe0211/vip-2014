@@ -1,0 +1,108 @@
+@import "../../app/css/lib.scss";
+.p-list-wrap{
+	width:100%;
+	overflow: hidden;
+	ul{
+		width:968px;
+		background-color: #fff;
+		li{
+			float:left;
+			width:242px;
+			line-height:20px;
+			text-align:left;
+			
+		}
+	}
+	.item{
+		margin:10px 0 0;
+		position:relative;
+		_zoom: 1;
+		padding:5px 10px 10px;
+
+		//@include transition(border-color 0.2s ease-in-out);
+		&:hover{
+			border:1px solid #ffd4ae;
+			padding:4px 9px 9px;
+			.r-top{
+				right:-1px;
+				top:-1px;
+			}
+		}
+	}
+	.r-top{
+		position:absolute;
+		right:0;
+		top:0;
+		width:69px;
+		height:69px;
+		overflow:hidden;
+		background: url(/app/css/i/exc.png) -23px 0 no-repeat;
+		.txt{
+			float:right;
+			font-family: $font-yahei;
+			font-size:13px;
+			color:#fff;
+			margin:3px 2px 0 0;
+			width:30px;
+		}
+		.txt-e{
+			font-family:arial;
+			margin:13px 5px 0 0;
+		}
+	}
+	.r-top-2{
+		position:absolute;
+		right:0;
+		top:0;
+		width:88px;
+		height:32px;
+		line-height: 32px;
+		background-color: #ffb06e;
+		text-align: center;
+		.txt{
+			font-family: $font-yahei;
+			font-size:11px;
+			color:#fff;
+		}
+	}
+	.p-img{
+		width: 220px;
+		height:220px;
+	}
+	.p-name{
+		height:20px;
+		line-height:20px;
+		overflow: hidden;
+	}
+	.p-price{
+		margin:0 0 5px;
+		strong{
+			font-family: verdana;
+			font-size:18px;
+			color:#c91423;
+			font-weight:normal;
+		}
+		b{
+			font-size:16px;
+			color:#ff6c00;
+			font-family:'\5fae\8f6f\96c5\9ed1';
+		}
+	}
+	.rank{
+		margin:0 0 5px;
+	}
+}
+.root61 .p-list-wrap{
+	ul{
+		width:1185px;
+		li{
+			width:237px;
+		}
+		.item{
+			padding:5px 8px 10px;
+			&:hover{
+				padding:4px 7px 9px;
+			}
+		}
+	}
+}

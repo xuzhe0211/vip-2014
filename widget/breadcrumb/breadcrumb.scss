@@ -1,0 +1,12 @@
+@import "../../app/css/lib.scss";
+.breadcrumb{
+    color:$color03;
+    line-height:30px;
+    margin:0 0 30px;
+    a{
+        color:$color03;
+    }
+    span{
+        color:#333;
+    }
+}

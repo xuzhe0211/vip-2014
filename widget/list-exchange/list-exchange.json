@@ -1,0 +1,36 @@
+{
+    "allExchange":[
+        {
+            "exc-txt1": "色彩斑斓文具",
+            "exc-txt2":"生活休闲类",
+            "exc-img": "http://img12.360buyimg.com//n3/g9/M01/0E/13/rBEHaVCpmqcIAAAAAAPYM-TAyLsAAC2ugNNTuYAA9hL542.jpg",
+            "exc-link":"http://fuwang.jd.com/",
+            "exc-tit":"色彩斑斓文具色彩斑斓文具色彩斑斓文",
+            "exc-worth":"50",
+            "exc-bean":"5000",
+            "exc-num":"237",
+            "exc-r-top-2":"京东11.11"
+        },
+        {
+            "exc-txt1": "色彩斑斓文具2",
+            "exc-txt2":"生活休闲类2",
+            "exc-img": "http://img12.360buyimg.com//n3/g9/M01/0E/13/rBEHaVCpmqcIAAAAAAPYM-TAyLsAAC2ugNNTuYAA9hL542.jpg",
+            "exc-link":"http://fuwang.jd.com/",
+            "exc-worth":"50",
+            "exc-bean":"5000",
+            "exc-num":"237",
+            "exc-r-top":"NEW"
+        },
+        {
+            "exc-txt1": "色彩斑斓文具3",
+            "exc-txt2":"生活休闲类2",
+            "exc-img": "http://img12.360buyimg.com//n3/g9/M01/0E/13/rBEHaVCpmqcIAAAAAAPYM-TAyLsAAC2ugNNTuYAA9hL542.jpg",
+            "exc-link":"http://fuwang.jd.com/",
+            "exc-worth":"50",
+            "exc-bean":"5000",
+            "exc-num":"237",
+            "exc-r-top-3":"年货"
+        }
+
+    ]
+}

@@ -1,0 +1,105 @@
+@import "../../app/css/lib.scss";
+	.draw-box{
+		position: relative;
+		margin:0 0 20px;;
+		width:662px;
+		height:520px;
+		background: url(/app/css/i/e-i1.png) no-repeat;
+		.d-list{
+			position: absolute;
+			left:86px;
+			top:185px;
+			width:406px;
+			.fore{
+				float:left;
+				position:relative;
+				width:130px;
+				height:130px;
+				margin:0 5px 0 0;
+				background: #fff;
+				overflow: hidden;
+				ul{
+					position: relative;
+					z-index: 2;
+				}
+				li{
+					width:130px;
+					height:130px;
+				}
+				img{
+					padding:15px;
+				}
+				em{
+					position: absolute;
+					display: block;
+					left:0;
+					top:0;
+					width:130px;
+					height:130px;
+					background: url(/app/css/i/e-i3.png) no-repeat;
+					z-index: 1; 
+				}
+				
+
+			}
+			#solt-item-1 em{background-position: 0 0;}
+			#solt-item-2{
+				margin:0 6px 0 0;
+				em{background-position: -130px 0;}
+			} 
+			#solt-item-3 em{background-position: -260px 0;}
+		}
+		.draw-btn{
+			position: absolute;
+			top:327px;
+			left:205px;
+			display:block;
+			width:163px;
+			height: 80px;
+			cursor:pointer;
+			&:focus{outline:none}
+		}
+		span.glint-l,span.glint-r{
+			display:none;
+			width:49px;
+			height:25px;
+			position: absolute;
+			background:url(/app/css/i/e-i6.gif) no-repeat;
+			top:372px;
+			left:125px;
+		}
+		span.glint-r{left:390px;background:url(/app/css/i/e-i7.gif) no-repeat;}
+
+
+		.drawed-btn{
+			background:url(/app/css/i/e-i4.png) no-repeat;
+		}
+		.draw-bean{
+			position:absolute;
+			left:0;
+			bottom:36px;
+			height:62px;
+			line-height: 62px;
+			width:562px;
+			text-align: center;
+			color:#644400;
+			font-size:24px;
+			font-weight: bold;
+			font-family:'\5fae\8f6f\96c5\9ed1' ;
+		}
+		.no-draw{
+			display: none;
+			position: absolute;
+			left:0;
+			bottom:0;
+			z-index: 5;
+			background:url(/app/css/i/e-i8.png) no-repeat;
+			width:662px;
+			height: 540px;
+			_background-image: none;
+			_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://misc.360buyimg.com/vip/skin/2013/i/e-i8.png',sizingMethod='noscale');	
+		
+
+		}
+
+	}

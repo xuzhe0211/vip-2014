@@ -1,0 +1,152 @@
+@import "../../app/css/lib.scss";
+.wished-box{
+    padding:35px 0 0 11px;
+    background: url(http://misc.360buyimg.com/vip/skin/2013/i/w-i22.png) no-repeat;
+    _background-image:none;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://misc.360buyimg.com/vip/skin/2013/i/w-i22.png',sizingMethod='noscale');
+    .box-cont{
+        background:#fff5e5;
+        padding:0 30px 30px;
+        width:520px;
+        position:relative;
+        z-index: 1;
+        top:2px;
+        left:1px;
+        -moz-box-shadow: 0 0 7px 0 rgba(131,81,0,.17);
+        -webkit-box-shadow: 0 0 7px 0 rgba(131,81,0,.17);
+        box-shadow: 0 0 7px 0 rgba(131,81,0,.17);
+        a.link{color:#b4722a;}
+        .ich{
+            display: inline-block;
+            vertical-align: middle;
+            margin:0 5px 0 0;
+        }
+        .tit{
+            line-height: 30px;
+            padding:15px 0 0;
+
+        }
+        .cont{
+            line-height:30px;
+            p{
+                margin:0 0 10px;
+                height:60px;
+                overflow: hidden;   
+            }
+            
+        }
+
+    }
+    .w-cheer{
+        width:260px;
+        margin:10px auto;
+    }
+    h3,h1{
+        text-align: center;
+        color:#ff9e00;
+        font-size:32px;
+        line-height: 55px;
+        padding:15px 0 0;
+        font-family:'\5fae\8f6f\96c5\9ed1';
+    }
+    h3{font-size:24px;line-height: 35px;}
+    h5{
+        padding:15px 0 0;
+        font-family:'\5fae\8f6f\96c5\9ed1';
+        color:#ff9e00;
+        font-size:16px;
+    }
+    .p-img{
+        width:160px;
+        height:160px;
+        margin: 20px auto 10px;
+    }
+    .p-name{
+        height:18px;
+        line-height: 18px;
+        overflow:hidden;
+    }
+    .wished-form{
+        
+        padding:10px 0 0;
+        margin:20px 0 0;
+        .area{
+            float:none;
+            width:520px;
+            height:100px;
+            border:#e8e8e8 1px solid;
+            margin:10px 0;
+
+        }
+        .op-btns{
+            margin:10px 0; 
+        }
+    }
+    .wished-bottom{
+        position:absolute;
+        background:url(http://misc.360buyimg.com/vip/skin/2013/i/w-i21.png) no-repeat;
+        _background-image:none;
+        _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://misc.360buyimg.com/vip/skin/2013/i/w-i21.png',sizingMethod='noscale');
+        width:49px;
+        height:125px;
+        bottom:-10px;
+        right:-35px;
+        z-index: 2;
+    }
+}
+#wishedthickbox{
+    border:0;
+    .thicktitle{
+        display: none;
+    }
+    .thickcon{
+        padding:0;
+        border:0;
+        background:none;
+    }
+    .thickclose{
+        background:url(http://misc.360buyimg.com/vip/skin/2013/i/wished-close.jpg) no-repeat;
+        width:35px;
+        height:20px;
+        top:35px;
+        right:50px;
+    }
+    .thickwrap{
+        border:0;
+        background:none;
+    }
+}
+.medal-thickbox{
+    padding:20px;
+    .medal-img{
+        width:100px;
+        height:100px;
+        background:#ccc;
+    }
+    .medal-msg{
+        width:430px;
+        margin-left:20px;
+        line-height:20px;
+        .medal-name{
+            color:#ff8400;
+            font-size: 16px;
+            font-family:'\5fae\8f6f\96c5\9ed1';
+            font-weight:bold;
+        }
+        .medal-time{
+            color:#999;
+        }
+        .medal-active{
+            color:#999;
+            a{
+                color:#ff8400;
+            }
+        }
+        .medal-detail{
+            margin-top:20px;
+            a{
+                color:#ff8400;
+            }
+        }
+    }
+}

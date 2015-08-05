@@ -1,0 +1,66 @@
+@import "../../app/css/lib.scss";
+.draw-wrap{
+    @include clearfix;
+    border:1px solid #ffd4ae;
+    margin-bottom: 20px;
+    background:#fff;
+    h3{
+        color:#ff8400;
+        font-family: $font-yahei;
+        font-size:16px;
+        font-weight: normal;
+    }
+    .l-col{
+        float:left;
+        width:654px;
+        border-right: 1px solid #ffd4ae;
+        padding:20px 30px 30px;
+    }
+    .r-col{
+        float:left;
+        padding:10px;
+        width:250px;
+        _padding:10px 0px 10px 10px;
+        overflow:hidden;
+        .mt{
+            height:40px;
+            line-height: 40px;
+            h2{
+                color:#ff8400;
+                font-family:$font-yahei;
+                font-size:16px;
+                font-weight: normal;
+            }
+        }
+        .gift-list{
+            width:260px;
+            li{
+                float:left;
+                width:110px;
+                margin:0 10px 20px;
+                text-align:center;
+            }
+        }
+    }
+	.winners-wrap-list{
+		height: 160px;
+		overflow: hidden;
+	}
+    .winners-list{
+        padding-top:20px;
+        li{
+            float:left;
+            width:100px;
+            margin:0 20px 0 10px;
+        }
+        .user-name{
+            height:1.5em;
+            line-height: 1.5em;
+            overflow:hidden;
+            color:#d37106;
+            margin-top: 5px;
+        }
+
+    }
+
+}

@@ -1,0 +1,39 @@
+@import "../../app/css/lib.scss";
+.medal-hot{
+	float:right;
+	width:297px;
+	border:1px solid #e5e5e5;
+	.mt{
+		height:33px;
+		line-height: 33px;
+		background:#fbfbfb;
+		color:#999;
+		padding-left:10px;
+		font-weight: bold;
+		border-bottom:1px solid #e5e5e5;
+	}
+	.mc{
+		padding: 0 5px;
+		background: #fff;
+		ul{
+			li{
+				padding:15px;
+				color:#999;
+				img{
+					float:left;
+					margin:0 20px 0 0px;
+				}
+				.size-14{
+					font-family: $font-yahei;
+					margin-top:20px;
+				}
+				a{
+					color:#999;
+					&:hover{
+						color:#E4393C;
+					};
+				}
+			}
+		}
+	}
+}

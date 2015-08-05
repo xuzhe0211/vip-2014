@@ -1,0 +1,179 @@
+@import "../../app/css/lib.scss";
+.list-exchange-wrap{
+	ul{
+		width:960px;
+	}
+	li{
+		float:left;
+		width:455px;
+		margin:0 10px 0 15px;
+		_display:inline;
+	}
+	.item{
+		@include clearfix;
+		border:1px dotted #c19667;
+		position:relative;
+		margin:30px 0 0;
+		.l-col{
+			float:left;
+			text-align: center;
+			width:170px;
+			padding-bottom: 10px;
+		}
+		.r-col{
+			float:left;
+			position:relative;
+			width:283px;
+			.r-top{
+				position:absolute;
+				right:0;
+				top:0;
+				width:69px;
+				height:69px;
+				overflow:hidden;
+				background: url(/app/css/i/exc.png) -23px 0 no-repeat;
+				.txt{
+					float:right;
+					font-family: $font-yahei;
+					font-size:13px;
+					color:#fff;
+					margin:3px 2px 0 0;
+					width:30px;
+				}
+				.txt-e{
+					font-family:arial;
+					margin:13px 5px 0 0;
+				}
+			}
+			.r-top-2{
+				position:absolute;
+				right:0;
+				top:0;
+				width:88px;
+				height:32px;
+				line-height: 32px;
+				background-color: #ffb06e;
+				text-align: center;
+				.txt{
+					font-family: $font-yahei;
+					font-size:11px;
+					color:#fff;
+				}
+			}
+		}
+		.exc-txt1{
+			font-family: $font-yahei;
+			font-size:14px;
+			margin:10px 0 5px;
+			font-weight: bold;
+			color:#2e2e2e;
+			overflow: hidden;
+			height: 16px;
+			padding: 0 2px;
+		}
+		.exc-txt2{
+			height: 18px;
+		}
+		.exc-img{
+			width:130px;
+			height:130px;
+			margin:10px auto 0;
+			overflow: hidden;
+		}
+		.limit{
+			position:relative;
+			background:#ffe8d5;
+			padding:10px 0 10px 15px;
+			height:87px;
+			overflow: hidden;
+			.p-tit{
+				line-height: 22px;
+				max-height: 44px;
+				padding: 2px 0;
+				font-family: $font-yahei;
+				font-size:16px;
+				color:$color04;
+				overflow: hidden;
+			}
+			.worth{
+				font-family: arial;
+				color:$color04;
+				font-size:40px;
+				line-height: 40px;
+				span.sign{
+					font-family: verdana;
+					font-size:30px;
+				}
+			}
+		}
+		.p-change{
+			position:relative;
+			background:#fff6ee;
+			padding:10px 0 10px 15px;
+			height:34px;
+			line-height:34px;
+			font-family:$font-yahei;
+			font-size: 16px;
+			font-weight: bold;
+			color:$color04;
+			span.num{
+				font-family: verdana;
+			}
+			span.ext-num{
+				font-size:12px;
+				font-weight: normal;
+				color:$color03;
+				font-family: '\5b8b\4f53';
+			}
+			.exc-jag{
+				background-position:0 -105px;
+			}	
+		}
+		.p-change-op{
+			position:relative;
+			background:#ffe8d5;
+			padding:12px 0 14px 15px;
+			_height:25px;
+		}
+		.exc-jag{
+			display:block;
+			position:absolute;
+			width:10px;
+			height:100%;
+			left:0;
+			top:0;
+			overflow:hidden;
+			background:url(/app/css/i/exc.png) -11px 0 repeat-y;
+		}
+		.top-icon{
+			position:absolute;
+			_clear:left;
+			width:18px;
+			height:14px;
+			left:-7px;
+			top:-7px;
+			overflow:hidden;
+			background:url(/app/css/i/exc.png) -93px 0 no-repeat;
+		}
+	}
+}
+.root61 .list-exchange-wrap{
+	ul{
+		width:1180px;
+	}
+	li{
+		width:365px;
+		margin:0 10px 0 17px;
+	}
+	.item .r-col{
+		width:193px;
+	}
+	.p-change{
+		line-height: 18px;
+		padding-bottom:8px;
+		span.ext-num{
+			display:block;
+			margin:0;
+		}
+	}
+}

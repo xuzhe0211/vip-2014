@@ -1,0 +1,39 @@
+@import "../../app/css/lib.scss";
+#da-top{
+    height: 500px;
+    border:1px solid #ddd;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #fff;
+    a{
+        display: inline-block;
+        width: 100%;
+        height: 500px;
+    }
+    .da-top-bar{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        height: 21px;
+        line-height: 21px;
+
+        .da-x{
+            display: inline-block;
+            height: 21px;
+            width: 21px;
+            /*background: url("http://misc.360buyimg.com/lib/skin/2013/i/thickbox_close.png") no-repeat scroll 0 0;*/
+            background: url(i/da-top-x.png) no-repeat scroll right 0;
+            vertical-align: middle;
+        }
+    }
+}
+.da-l{
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+    a{
+        display: inline-block;
+        width: 100%;
+        height: 90px;
+    }
+}

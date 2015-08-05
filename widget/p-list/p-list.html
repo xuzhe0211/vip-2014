@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>p-list</title>
+<link rel="stylesheet" type="text/css" href="http://misc.360buyimg.com/lib/skin/2013/base.css" media="all" />
+<script type="text/javascript" src="http://misc.360buyimg.com/jdf/lib/jquery-1.6.4.js"></script>
+<script type="text/javascript" src="http://misc.360buyimg.com/jdf/1.0.0/unit/base/1.0.0/base.js"></script>
+</head>
+<body>
+
+<!-- list-wrap-->
+	<div class="list-wrap">
+		<ul class="clearfix">
+			#foreach( $product in $allProducts )
+				#if($itemnum==2)
+				<li>
+					<div class="item">
+						<div class="p-img">
+							<a target="_blank" href="$product[0].p-link"><img width="220" height="220" alt="$product[0].p-name" src="$product[0].p-img" data-img="1" title="$product[0].p-name"/></a>
+						</div>
+						<div class="p-name">
+							<a target="_blank" href="$product[0].p-link" title="$product[0].p-name">$product[0].p-name</a>
+						</div>
+						<div class="p-price">
+							<div class="ftx-03">京东价：<del>$product[0].p-del</del></div>
+							<strong>$product[0].p-price</strong>
+							#if($beantag)
+							<b>+10</b>
+							#end
+						</div>
+						#if($rank)
+						<div class="rank r4 ftx-03"><s></s>金牌及以上会员专享价</div>
+						#end
+						<div class="btns"><a href="" class="btn gray-btn">加入购物车</a></div>
+					</div>
+					<div class="item">
+						<div class="p-img">
+							<a target="_blank" href="$product[1].p-link"><img width="220" height="220" alt="$product[1].p-name" src="$product[1].p-img" data-img="1" title="$product[1].p-name"/></a>
+						</div>
+						<div class="p-name">
+							<a target="_blank" href="$product[1].p-link" title="$product[1].p-name">$product[1].p-name</a>
+						</div>
+						<div class="p-price">
+							<div class="ftx-03">京东价：<del>$product[1].p-del</del></div>
+							<strong>$product[1].p-price</strong>
+							#if($beantag)
+							<b>+10</b>
+							#end
+						</div>
+						#if($rank)
+						<div class="rank r4 ftx-03"><s></s>金牌及以上会员专享价</div>
+						#end
+						<div class="btns"><a href="" class="btn gray-btn">加入购物车</a></div>
+					</div>
+				</li>
+				#elseif
+				<li>
+					<div class="item">
+						<div class="p-img">
+							<a target="_blank" href="$product[0].p-link"><img width="220" height="220" alt="$product[0].p-name" src="$product[0].p-img" data-img="1" title="$product[0].p-name"/></a>
+						</div>
+						<div class="p-name">
+							<a target="_blank" href="$product[0].p-link" title="$product[0].p-name">$product[0].p-name</a>
+						</div>
+						<div class="p-price">
+							<div class="ftx-03">京东价：<del>$product[0].p-del</del></div>
+							<strong>$product[0].p-price</strong>
+							#if($beantag)
+							<b>+10</b>
+							#end
+						</div>
+						#if($rank)
+						<div class="rank r4 ftx-03"><s></s>金牌及以上会员专享价</div>
+						#end
+						<div class="btns"><a href="" class="btn gray-btn">加入购物车</a></div>
+					</div>
+				</li>
+				#end
+			#end
+		</ul>
+	</div>
+<!-- /list-wrap --></body>
+</html>

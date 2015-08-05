@@ -1,0 +1,492 @@
+@import "../../app/css/lib.scss";
+.mt-1 { margin-top: -1px }
+.mt-2 { margin-top: -2px }
+.mt-3 { margin-top: -3px }
+.mt5 { margin-top: 5px }
+.mt10 { margin-top: 10px }
+.mt20 { margin-top: 20px }
+.mr5 { margin-right: 5px }
+.mr10 { margin-right: 10px }
+.mb5 { margin-bottom: 5px }
+.mb10 { margin-bottom: 10px }
+.ml5 { margin-left: 5px }
+.ml10 { margin-left: 10px }
+
+//== @subsection 内边距  ==//
+.pt5 { padding-top: 5px }
+.pt10 { padding-top: 10px }
+.pt20 { padding-top: 20px }
+.pr5 { padding-right: 5px }
+.pr10 { padding-right: 10px }
+.pr20 { padding-right: 20px }
+.pb5 { padding-bottom: 5px }
+.pb10 { padding-bottom: 10px }
+.pb20{padding-bottom:20px;}
+.pl5 { padding-left: 5px }
+.pl10 { padding-left: 10px }
+.pl20 { padding-left: 20px }
+
+.ftx-01{color:$color01;}
+.font-green,.ftx-02{color:$color02;}
+.ftx-03,.grey{color:$color03;}
+.font-yellow,.ftx-04{color:$color04;}
+.ftx-05{color:$color05;}
+.ftx-06{color:$color06;}
+.ftx-16{font-size:16px;}
+.alink{color:#005ea7;}
+#navitems-2013{
+	li{
+		width:108px;
+		a{
+			width:108px;
+		}
+		sup{
+			position: absolute;
+			right: 0;
+			top:-5px;
+			height: 14px;
+			line-height: 80px;
+			width: 24px;
+			overflow: hidden;
+			background:url(http://misc.360buyimg.com/vip/skin/2013/i/nav-icons.png) 0 0 no-repeat;
+		}
+		&.fore1{
+			width:126px;
+			a{
+				width:128px;
+			}
+		}
+		&.carnival{
+			a{
+				background: url(/app/css/i/108x40.png) 0 0 no-repeat;
+				height:40px;
+				line-height:120px;
+				overflow: hidden;
+				&:hover{
+					background: url(/app/css/i/108x40.png) 0 -40px no-repeat;
+				}
+			}
+		}
+	}
+}
+#o-header-2013{
+	background-color:#fff;
+}
+#container{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background: url(i/container-bg.jpg) 0 0 repeat #fff;
+}
+
+@mixin btn($h:36px,$sc:#ff7302,$ec:#ff8b2e,$fc:#fff,$fz:16px,$fw:normal,$pd:15px){
+	@include inline-block;
+	height: $h;
+	line-height: $h;
+	@include gradual-change($sc,$ec);
+	@include r-corners(3px);
+	color:$fc;
+	font-size: $fz;
+	font-weight: $fw;
+	padding:0 $pd;
+	vertical-align: middle;
+	cursor:pointer;
+	&:hover{
+		@include gradual-change($ec,$sc);
+		color: $fc;
+		text-decoration: none;
+	}
+}
+.btn-1,.exc-detail .p-change-op .btn-3{
+	font-family: arial,"microsoft yahei";
+	cursor:pointer;
+	@include r-corners(3px);
+	@include btn(35px,#ff8400,#ff9d35,$fc:#fff,$fz:16px,$fw:normal,$pd:40px);
+	&:hover{
+		@include gradual-change(#ff6200,#ff8523);
+	}
+}
+.btn-2{
+	font-family: arial,"microsoft yahei";
+	cursor:pointer;
+	@include r-corners(3px);
+	@include btn(25px,#ff8400,#ff9d35,$fc:#fff,$fz:12px,$fw:normal,$pd:15px);
+	&:hover{
+		@include gradual-change(#ff6200,#ff8523);
+	}
+}
+.btn-3{
+	font-family: arial,"microsoft yahei";
+	cursor:pointer;
+	@include r-corners(3px);
+	@include btn(25px,#ff8400,#ff9d35,$fc:#fff,$fz:12px,$fw:normal,$pd:28px);
+	&:hover{
+		@include gradual-change(#ff6200,#ff8523);
+	}
+}
+.btn-9,.gray-btn{
+	font-family: arial,"microsoft yahei";
+	border:1px solid #ddd;
+	cursor:pointer;
+
+	@include r-corners(1px);
+	@include btn(19px,#f2f2f2,#f7f7f7,$fc:#323333,$fz:12px,$fw:normal,$pd:9px);
+	&:hover{
+		@include box-shadow(0 1px 1px rgba(0,1,1,0.8));
+		@include gradual-change(#f7f7f7,#f2f2f2);
+	}
+}
+
+.btn-10{
+	font-family: arial,"microsoft yahei";
+	border:1px solid #ddd;
+	cursor:pointer;
+
+	@include r-corners(1px);
+	@include btn(19px,#f2f2f2,#f7f7f7,$fc:#323333,$fz:12px,$fw:normal,$pd:9px);
+	@include gradual-change(#df3033,#e74649);
+
+	&:hover{
+		@include box-shadow(0 1px 1px rgba(0,1,1,0.8));
+		@include gradual-change(#df3033,#e74649);
+	}
+}
+
+// @mixin btn($h:36px,$sc:#ff7302,$ec:#ff8b2e,$fc:#fff,$fz:16px,$fw:normal,$pd:15px){}
+
+.btn-disabled,.exc-detail .p-change-op .btn-disabled{
+	@include gradual-change(#d2d2d2,#e8e8e8);
+	color:#999;
+	cursor:not-allowed;
+	&:hover{
+		@include gradual-change(#d2d2d2,#e8e8e8);
+		color:#999;
+	}
+}
+.rank s{
+		display:inline-block;
+		vertical-align:middle;
+		width:17px;
+		height:17px;
+		overflow: hidden;
+		background:url(/app/css/i/rank.png);
+		margin:0 8px 0 0;
+	}
+.r1 s {background-position:-34px 0;}
+.r2 s {background-position:-34px -17px;}
+.r3 s {background-position:-34px -34px;}
+.r4 s {background-position:-34px -51px;}
+.r5 s {background-position:-34px -68px;}
+.r6 s {background-position:-34px -85px;}
+
+.m{
+	.mt{
+		@include clearfix;
+		h2{
+			float:left;
+			font-family: $font-yahei;
+			font-size:18px;
+			height:40px;
+			line-height: 40px;
+		}
+		.extra-r{
+			float:right;
+			_width:62px;
+			_overflow:visible;
+			white-space:nowrap; 
+			a.more{
+				display: block;
+				height:18px;
+				line-height: 18px;
+				background:#ff8400;
+				padding:6px 10px 6px 15px;
+				color:#fff;
+				margin:10px 0 0;
+				b{
+					
+					@include inline-block;
+					margin:-2px 0 0 5px;
+					width: 0;
+					height: 0;
+					border-style: dashed dashed dashed solid;
+					border-width: 4px;
+					border-color: transparent transparent transparent #fff;
+					overflow: hidden;
+					font-size: 0;
+					vertical-align: middle;
+
+				}
+			}	
+		}
+	}
+}
+.vip-m{
+	margin-bottom:20px;
+	.mt{
+		h2{
+			color:#ff6c00;
+			font-size: 20px;
+			font-weight:normal;
+			em{
+				@include inline-block;
+				width:31px;
+				height:34px;
+				vertical-align: middle;
+				background:url(/app/css/i/mt-icon.png) 0 0 no-repeat;
+				font-family: verdana;
+				font-size:18px;
+				line-height: 31px;
+				text-align: center;
+				color:#fff;
+				margin:-5px 5px 0 0;
+				_margin-top:0;
+				font-weight: normal;
+				@include transition(all 0.2s ease);
+				&.hot{
+					font-size: 14px;
+				}
+			}
+			a{
+				color:#ff6c00;
+				
+				&:hover{
+					font-weight:bold;
+					text-decoration: none;
+					color:#f54b00;
+					em{
+						background-position:0 -39px;
+					}
+				}
+			}
+			
+
+
+		}
+	}
+	.mc{
+		background:#fff;
+		border:solid;
+		border-width:2px 1px 1px;
+		border-color:#ff8400 #ffd4ae #ffd4ae; 
+	}
+}
+.floor-m{
+	.mc{
+		padding:0 10px 20px;
+	}
+}
+.plist-wrap{
+	background:#fff;
+	padding:0 10px 20px;
+	margin-bottom:10px; 
+	border:solid;
+	border-width:2px 1px 1px;
+	border-color:#ff8400 #ffd4ae #ffd4ae; 
+}
+.form{
+	.item{
+		@include clearfix;
+		margin-bottom:20px;
+		line-height:30px;
+		span.label{
+			float:left;
+			height:18px;
+			line-height:18px;
+			padding:6px 0;
+			width:100px;
+			text-align: right;
+		}
+
+	}
+	em{
+		color:$color01;
+	}
+	.itxt,.selt,.area{
+		line-height: 18px;
+		border:1px solid #ccc;
+		padding:5px;
+		float:none;
+	}
+	.selt{
+		width:100px;
+	}
+	.selt1{
+		width:70px;
+	}
+	.itxt{
+		height:18px;
+		width:50px;
+		padding:3px 5px;
+	}
+	label{
+		float:none;
+	}
+	.jdradio,.jdcheckbox{
+		float:none;
+		vertical-align:-2px;
+		_vertical-align:-1px;
+		margin:0 3px 0 0;
+		padding:0;
+	}
+	
+}
+//无结果
+
+.no-result {
+height: 208px;
+padding: 50px 0;
+background: url(http://misc.360buyimg.com/vip/skin/2013/i/a-i11.png) #fff no-repeat center;
+}
+
+/*2014 5.5 弹窗样式*/
+.thickcon,.ui-dialog{
+    .item{
+        line-height: 25px;
+        color:#333;
+        padding:10px 20px;
+        .tit{
+            margin:0 0 10px;
+            line-height: 18px;
+        }
+        ul{margin:0 0 0 10px;}
+        .checkbox{
+            display:inline-block;
+            vertical-align:middle;
+            margin:0 5px 0 0;
+        }
+        
+    }
+    .btn-9,.gray-btn{
+        padding:2px 15px;
+    }
+    .form{
+        span.label{
+            float: left;
+            display: inline-block;
+            vertical-align: middle;
+            width:96px;
+            height:30px;
+            line-height:30px;
+            text-align: left;
+            padding:0;
+        }
+        .item{
+            padding:0;
+        }
+        .itxt{
+            width:108px;
+            height:18px;
+            line-height: 18px;
+            padding:5px;
+            border:1px solid #ccc;
+            margin:0 10px 0 0;
+        }
+        img{margin:0 10px 0 0;}
+        a.link{
+            color:#005ea8;
+        }
+        .msg-error,.msg-error-lock{
+            clear:both;
+            color:#e3393c;
+            text-align: left;
+            display: none;
+        }
+    }
+    .op-btns{
+        margin:20px 0 0;
+        .del-btn{
+            margin:0 0 0 10px;
+        }
+    }
+    .tip-box{
+        padding:10px 0 10px 60px;
+        margin:15px 30px 0;
+        min-height:48px;
+        _height:48px;
+        h3{
+            font-size:18px;
+            font-family: '\5FAE\8F6F\96C5\9ED1';
+            margin:0 0 5px;
+            line-height: 25px;
+            font-weight: normal;
+        }
+        .box-cont{
+            line-height: 25px;
+            margin-top:5px;
+            a{color:#005ea7;}
+        }
+        span.num{
+            margin:0 0 0 5px;
+        }
+
+    }
+    .succ-box{
+        background:url(/app/css/i/succ.png) left 5px no-repeat;
+		.exchange-text{
+			width: 140px;
+			height: 19px;
+			border: 1px solid #ddd;
+			margin-right: 15px;
+			vertical-align: middle;
+			line-height: 18px;
+			/*color: #9e9e9e;*/
+		}
+		.toTelphoneBtn{
+			margin-right: 5px;
+		}
+    }
+    .warn-box{
+        background:url(/app/css/i/warn.png) left 5px no-repeat;
+        .startCode{
+            color: #005ea8;
+        }
+    }
+}
+.gift-thickbox{
+    position:relative;
+    padding:0 40px;
+    width:510px;
+    overflow: hidden;
+    .list-wrap{
+        overflow: hidden;
+        height: 216px;
+    }
+    #gift-d-con{
+        width:525px;
+        margin: 0;
+    }
+    li{
+        float:left;
+        width:160px;
+        overflow: hidden;
+        padding-right:15px;
+        .p-img{
+        	a{
+	            display: inline-block;
+	            height: 160px;
+	            width: 160px;
+	        }
+        }
+        .p-name{
+            height:3em;
+            line-height: 1.5em;
+            margin:5px 0;
+        }
+    }
+    .op-btns{
+        position:absolute;
+        top:25%;
+        width:21px;
+        height:32px;
+        background:url(/app/css/i/vip.20131126A.png) no-repeat;
+        cursor:pointer;
+        z-index:1;
+    }
+    .vip-prev{
+        left:10px;
+        background-position:0 -115px;
+    }
+    .vip-next{
+        right:10px;
+        background-position:-21px -115px;
+    } 
+}

@@ -1,0 +1,69 @@
+@import "../../app/css/lib.scss";
+.list-act-wrap{
+	li{
+		float:left;
+		margin:30px 0 30px 30px;
+		width:160px;
+		.item{
+			font-size:14px;
+			.r-col{
+				margin-top:10px;
+				@include clearfix;
+			}
+			.act-tag{
+				font-family:$font-yahei;
+			}
+			.act-name{
+				height:3em;
+				line-height: 1.5em;
+				overflow:hidden;
+				font-family:$font-yahei;
+				margin-bottom: 10px;
+				a{
+					color:#333;
+				}
+			}
+			.act-join{
+				font-size:12px;
+				float:left;
+				strong{
+					font-family: verdana;
+				}
+			}
+			.act-op{
+				float:right;
+			}
+		}
+	}
+}
+.root61 .list-act-wrap{
+	li{
+		width:362px;
+		.item{
+			@include clearfix;
+			background:#f5f5f5;
+			.l-col{
+				width:160px;
+				margin-right: 10px;
+				float:left;
+			}
+			.r-col{
+				float:left;
+				width:170px;
+				margin-top:15px;
+			}
+			.act-tag{
+				margin-bottom: 10px;
+			}
+			.act-name{
+				margin-bottom: 20px;
+			}
+			.act-join,.act-op{
+				float:none;
+			}
+			.act-op{
+				margin-top: 5px;
+			}
+		}
+	}
+}

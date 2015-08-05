@@ -1,0 +1,165 @@
+@import "../../app/css/lib.scss";
+.exc-detail{
+	width:938px;
+	margin:0 auto 30px;
+	background:#fff;
+	.item{
+		@include clearfix;
+		border:1px dotted #c19667;
+		position:relative;
+		.l-col{
+			float:left;
+			text-align: center;
+			width:500px;
+			@include clearfix;
+		}
+		.r-col{
+			float:left;
+			background:#fff6ef;
+			width:405px;
+			height:220px;
+			padding-left:30px;
+
+		}
+		.exc-txt1{
+			font-family: $font-yahei;
+			font-size:20px;
+			margin:30px 0 8px;
+			font-weight: bold;
+		}
+		.exc-img{
+			float:left;
+			width:220px;
+			height:220px;
+			img{
+				position:relative;
+				top:50%;
+				margin-top: -80px;
+			}
+		}
+		.limit{
+			position:relative;
+			background:#ffe8d5;
+			float:left;
+			width:250px;
+			height:220px;
+			background:#ffe8d6;
+			text-align: right;
+			padding-right:30px;
+			.worth{
+				font-family: verdana;
+				color:$color04;
+				font-size:60px;
+				line-height: 100px;
+				margin:30px 0 0;
+				.num{
+					font-size:100px;
+					font-family: arial;
+				}
+			}
+			.coupon-info{
+				text-align: left;
+				padding: 25px 0 0px  20px;
+				width:100%;
+				overflow:hidden;
+				/*p{
+					height:22px;
+					overflow: hidden;white-space: nowrap;text-overflow: ellipsis;
+				}*/
+				dt{
+					padding-bottom: 8px;
+					font-weight: bold;
+					font-size:14px;
+				}
+				dd{
+					padding-bottom: 5px;
+				}
+				a{
+					color: #005ea7;
+				}
+			}
+			.limit_ellipsis{
+				padding-left:20px;
+				text-align: left;
+				margin:0px 0 5px;
+			}
+			.limit_more{
+				padding-left:20px;
+				text-align: left;
+				a{
+					color: #005ea7;
+				}
+			}
+			.exc-msg{
+				font-size:18px;
+				font-family: $font-yahei;
+				margin-bottom: 10px;
+				color:$color04;
+			}
+		}
+		.p-change{
+			position:relative;
+			height:34px;
+			line-height:34px;
+			margin:17px 0 10px;
+			font-family:$font-yahei;
+			font-size: 20px;
+			font-weight: bold;
+			color:$color04;
+			span.num{
+				font-family: verdana;
+			}
+			span.ext-num{
+				font-size:12px;
+				font-weight: normal;
+				color:$color03;
+				font-family: '\5b8b\4f53';
+			}
+			.exc-jag{
+				background-position:0 0;
+			}	
+		}
+		.p-change-op{
+			position:relative;
+		}
+		.exc-jag{
+			display:block;
+			position:absolute;
+			width:10px;
+			height:100%;
+			left:0;
+			top:0;
+			overflow:hidden;
+			background:url(/app/css/i/exc.png) -11px 0 repeat-y;
+		}
+		.top-icon{
+			position:absolute;
+			_clear:left;
+			width:18px;
+			height:14px;
+			left:-7px;
+			top:-7px;
+			overflow:hidden;
+			background:url(/app/css/i/exc.png) -93px 0 no-repeat;
+		}
+		.quan-icon{
+			position:absolute;
+			_clear:left;   //ie6  浮动加定位bug
+			width:214px;
+			height:162px;
+			top:0;
+			right:20px;
+			overflow: hidden;
+			background:url(/app/css/i/quan-icon.png) no-repeat;
+		}
+	}
+}
+.root61 .exc-detail{
+	width:1150px;
+	.item .r-col{
+		width:618px;
+	}
+	.quan-icon{
+		right:35px;
+	}
+}
