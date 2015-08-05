@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>会员俱乐部-首页</title>
+<link rel="stylesheet" type="text/css" href="http://misc.360buyimg.com/lib/skin/2013/base.css" media="all" />
+<script type="text/javascript">
+	window.pageConfig={
+		compatible:true
+	};
+</script>
+<script type="text/javascript" src="http://misc.360buyimg.com/jdf/lib/jquery-1.6.4.js"></script>
+<script type="text/javascript" src="http://misc.360buyimg.com/jdf/1.0.0/unit/base/1.0.0/base.js"></script>
+<link rel="stylesheet" type="text/css" href="/app/css/vip.index.css">
+<script type="text/javascript" src="/app/js/vip.index.js"></script>
+
+</head>
+<body>
+{%widgetOutputName="index.widget"%}
+{%widget name="common"%}
+{%widget name="header"%}
+<!-- main -->
+<div id="container">
+	<div class="w">
+		<div id="content">
+			{%widget name="da-top" data='{"itemnum":"top"}'%}
+			{%widget name="menu" data='{"nologin":true}'%}
+			{%widget name="g-scroll" data='{"flag":false}'%}
+			<div id="gb-tab">
+				{%widget name="gb-nav"%}
+				<div class="tab-con">
+					<div class="m vip-m floor-m">
+						<div class="mt">
+							<h2><a href=""><em>1F</em>京豆兑换</a></h2>
+							<div class="extra-r">
+								<a href="#none" class="more">更多<b></b></a>
+							</div>
+						</div>
+						<div class="mc">
+						{%widget name="list-exchange" data='{"itemnum":1}'%}
+						</div>
+					</div>
+					{%widget name="da-top"%}
+					<div class="m vip-m floor-m">
+						<div class="mt">
+							<h2><a href=""><em>2F</em>京豆优惠购</a></h2>
+							<div class="extra-r">
+								<a href="#none" class="more">更多<b></b></a>
+							</div>
+						</div>
+						<div class="mc">
+						{%widget name="p-list" data='{"rank":0,"beantag":1,"itemnum":1}'%}
+						</div>
+					</div>
+					{%widget name="da-top"%}
+					<div class="m vip-m floor-m">
+						<div class="mt">
+							<h2><a href=""><em>3F</em>会员特价</a></h2>
+							<div class="extra-r">
+								<a href="#none" class="more">更多<b></b></a>
+							</div>
+						</div>
+						<div class="mc">
+						{%widget name="p-list" data='{"rank":1,"beantag":0,"itemnum":1}'%}
+						</div>
+					</div>
+				</div>
+				<div class="tab-con" style="display: none;">22</div>
+				<div class="tab-con" style="display: none;">33</div>
+				<div class="tab-con" style="display: none;">44</div>
+				<div class="tab-con" style="display: none;">55</div>
+				<div class="tab-con" style="display: none;">66</div>
+				<div class="tab-con" style="display: none;">77</div>
+				<div class="tab-con" style="display: none;">88</div>
+				<div class="tab-con" style="display: none;">99</div>
+			</div>
+			{%widget name="da-top"%}
+			<div class="m vip-m ">
+				<div class="mt">
+					<h2><a href="">热门活动</a></h2>
+					<div class="extra-r">
+						<a href="#none" class="more">更多<b></b></a>
+					</div>
+				</div>
+				<div class="mc">
+					{%widget name="list-activity"%}
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- /main -->
+{%widget name="footer"%}
+</body>
+</html>
