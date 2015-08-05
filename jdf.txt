@@ -1,0 +1,14 @@
+预览模块
+
+jdf widget -preview widget/p-list
+
+升级jdf
+npm update jdf -g
+
+
+模板文档
+
+https://github.com/putaoshu/jdf-doc/blob/master/vm.md
+
+
+{%widget name="p-list" data='{"rank":1,"itemnum":2}'%}
