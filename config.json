@@ -1,0 +1,17 @@
+{
+	"host": "192.168.153.93",
+	"user": "user",
+	"password": "user",
+	"widgetOutputName": "widgetoutput",
+
+	"baseDir" : "app",
+	"cssDir" : "app/css",
+	"imagesDir" : "app/css/i",
+	"jsDir" : "app/js",
+	"output" : {
+		"combineWidgetJs":true,
+		"combineWidgetCss":true
+	},
+	"projectPath":"vip/2014",
+	"localServerPort":"3000"
+}
