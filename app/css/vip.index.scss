@@ -1,0 +1,33 @@
+#content{
+	position:relative;
+}
+#content #user-info{
+	margin-bottom:0;
+}
+.puzzles-mc{
+	position: relative;
+	z-index:5;
+}
+.g_puzzle_wp{
+	position: absolute;
+	top: 130px;
+	right: 0px;
+	height:1px;
+	width:1px;
+	z-index:6;
+}
+.g_puzzle_wp .ui-ceilinglamp-current{
+	left:50%;
+	margin-left:495px;
+}
+.ui-ceilinglamp-2{
+	height:0px !important;
+}
+.root61{
+	.g_puzzle_wp{
+		.ui-ceilinglamp-current{
+			left:50%;
+			margin-left:605px;
+		}
+	}
+}
